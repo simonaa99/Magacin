@@ -21,6 +21,7 @@ public class Magacin implements MagacinInterfejs {
 				break;
 			}
 		}
+
 	}
 
 	@Override
