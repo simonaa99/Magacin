@@ -5,6 +5,7 @@ import java.util.Date;
 public class KucnaHemija extends Artikal{
 
 	private Date rokTrajanja;
+	
 
 	public Date getRokTrajanja() {
 		return rokTrajanja;
@@ -41,6 +42,7 @@ public class KucnaHemija extends Artikal{
 		return true;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "KucnaHemija [rokTrajanja=" + rokTrajanja + "]";

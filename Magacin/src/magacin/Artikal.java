@@ -31,6 +31,7 @@ public class Artikal {
 		return opis;
 	}
 	
+	
 	public void setOpis(String opis) {
 		if(opis != null) {
 			this.opis = opis;
@@ -57,7 +58,8 @@ public class Artikal {
 		result = prime * result + sifra;
 		return result;
 	}
-
+	
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
