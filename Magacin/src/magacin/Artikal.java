@@ -12,7 +12,9 @@ public class Artikal {
 	}
 	
 	public void setNaziv(String naziv) {
+		if(naziv != null) {
 		this.naziv = naziv;
+		}
 	}
 	
 	public int getSifra() {
@@ -20,7 +22,9 @@ public class Artikal {
 	}
 	
 	public void setSifra(int sifra) {
-		this.sifra = sifra;
+		if(sifra >= 0) {
+			this.sifra = sifra;
+		}
 	}
 	
 	public String getOpis() {
@@ -28,7 +32,9 @@ public class Artikal {
 	}
 	
 	public void setOpis(String opis) {
-		this.opis = opis;
+		if(opis != null) {
+			this.opis = opis;
+		}
 	}
 	
 	public int getKolicina() {
@@ -36,7 +42,9 @@ public class Artikal {
 	}
 	
 	public void setKolicina(int kolicina) {
-		this.kolicina = kolicina;
+		if(kolicina >= 0) {
+			this.kolicina = kolicina;
+		}
 	}
 
 	@Override
